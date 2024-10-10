@@ -7,4 +7,7 @@ func main() {
 	log.Println(numbers)
 	log.Println(numbers[0:2])
 	log.Println(numbers[6:9])
+
+	names := []string{"one", "seven", "fish", "cat"}
+	log.Println(names)
 }
