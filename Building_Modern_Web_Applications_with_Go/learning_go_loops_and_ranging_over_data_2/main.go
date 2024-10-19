@@ -3,9 +3,12 @@ package main
 import "log"
 
 func main() {
-	mySlice := []string{"dog", "cat", "horse", "fish", "banana"}
+	myMap := make(map[string]string)
+	myMap["dog"] = "dog"
+	myMap["fish"] = "fish"
+	myMap["hat"] = "hat"
 
-	for _, x := range mySlice {
-		log.Println(x)
+	for i, x := range myMap {
+		log.Println(i, x)
 	}
 }
